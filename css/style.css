@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: cornsilk;
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: #333;
+}
+
+.img {
+    height: 4rem;
+    width: 10rem;
+}
+
+.color {
+    background-color: #333 !important;
+}
+
+.nav-link {
+    color: antiquewhite !important;
+}
+
+.contenedorSubtitulo {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d90368;
+    border-bottom: 1px solid #a39393;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+
+h2 {
+    text-shadow: 2px 1px 4px grey;
+    color: white;
+}
+
+.contenedorForm {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: 0.5rem !important;
+    margin-right: 0.2rem;
+}
+
+#indicador {
+    background-color: #477878;
+    border-radius: 1rem;
+}
+
+.d-flex {
+    margin-right: 0.7rem;
+}
+
+.form-check {
+    padding-left: 0 !important;
+    margin-left: 0.6rem;
+}
+
+.lavelSize {
+    font-size: small !important;
+}
+
+.btn-outline-success {
+    --bs-btn-color: #dc3545;
+    --bs-btn-border-color: #747a83;
+    --bs-btn-hover-bg: #d90368;
+    --bs-btn-hover-border-color: #d90368;
+    border: 1px solid #747a83;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+}
+
+.contenedorCartas {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    gap: 7rem;
+}
+
+.botonCarta {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenCarta {
+    height: 52%;
+}
+
+.btn-primary {
+    --bs-btn-bg: #d90368;
+    --bs-btn-border-color: #d90368;
+    --bs-btn-hover-bg: #477878;
+    --bs-btn-hover-border-color: #477878;
+}
+
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rounded-4 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contenedorMail {
+    display: flex;
+    margin-top: 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+}
+
+.celdaContacto {
+    border: 1px solid black;
+    width: 18rem;
+
+}
+
+.letraMail {
+    color: #d90368;
+}
+
+.bordeMail {
+    border: 1px solid black;
+    height: 9.3rem;
+}
+
+footer {
+    min-height: 21vh;
+    background-color: #d90368;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 1rem
+}
+
+.tamanioContact label {
+    font-size: 2.2rem;
+
+}
+
+footer img {
+    height: 3rem;
+    width: 7rem;
+    margin-top: 1.3rem;
+    border-radius: 15px;
+
+}
+
+.infoFooter {
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.cartaDetalle {
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.submit {
+    border: 2px solid wheat;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 13px;
+    background: #d90368;
+    color: wheat;
+    font-size: 16px;
+    font-weight: 32px;
+    padding-bottom: 1px;
+}
+
+
+.submit1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.cartaGrande {
+    width: 18rem !important;
+    height: 28rem !important;
+}
+
+.cartaDetalle img {
+    width: 100%;
+    height: 40%;
+}
+
+#search{
+    justify-content: center ;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar {
+        --bs-navbar-nav-link-padding-x: 0.rem;
+    }
+
+    .contenedorLiMenu li {
+        margin-left: 1.5rem !important;
+
+    }
+
+    .labelText {
+        font-size: 12px;
+    }
+
+    .fondoAncor {
+        background-color: #d90368;
+        border-radius: 6px;
+        width: 6rem;
+        text-align: center;
+    }
+
+    .fondoAncor2 {
+        background-color: #d90368;
+        border-radius: 6px;
+        width: 9rem;
+        text-align: center;
+    }
+
+    .boxNav a:hover {
+        transform: scale(1.3);
+        transition: 1s;
+        background-color: #d90368;
+        color: black;
+        border: 2px solid aquamarine;
+    }
+
+    .contenedorForm {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contenedorForm div {
+        margin-left: 1.7rem !important;
+    }
+
+    .celdaContacto {
+
+        width: 35rem;
+        height: 3.3rem;
+    border-radius: 8px;
+    }
+
+    .cartaDetalle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .cartaGrande {
+        flex-direction: row;
+        width: 50rem !important;
+        height: 23rem;
+        padding: 1rem;
+    }
+
+    .cartaGrande img {
+        width: 57%;
+        height: 100%;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer img {
+        margin-right: 2rem;
+        height: 3rem;
+        width: 7rem;
+        margin-top: 1.3rem;
+    }
+
+    .infoFooter {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar {
+        --bs-navbar-nav-link-padding-x: 0.rem;
+    }
+
+    .contenedorLiMenu li {
+        margin-left: 1.5rem !important;
+
+    }
+
+    .boxNav a:hover {
+        transform: scale(1.3);
+        transition: 1s;
+        background-color: #d90368;
+        color: black;
+        border: 2px solid aquamarine;
+    }
+
+    .cartaDetalle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .cartaGrande {
+        flex-direction: row;
+        width: 63rem !important;
+        height: 23rem;
+        padding: 1rem;
+    }
+
+    .cartaGrande img {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    .footerMobile {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .contenedorForm {
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+
+    .contenedorForm div {
+        margin-left: 0.7rem !important;
+    }
+
+    .contenedorCartas {
+        gap: 5rem;
+    }
+
+    .celdaContacto {
+
+        width: 40rem;
+        height: 3.3rem;
+    border-radius: 8px;
+    }
+
+    .fondoAncor {
+        background-color: #d90368;
+        border-radius: 6px;
+        width: 6rem;
+        text-align: center;
+    }
+
+    .fondoAncor2 {
+        background-color: #d90368;
+        border-radius: 6px;
+        width: 9rem;
+        text-align: center;
+
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer img {
+        margin-right: 2rem;
+    }
+
+    .infoFooter {
+        font-size: 1.5rem;
+    }
+
+    #contenedorCheckBox{
+        width: fit-content !important;
+
+}
+}
